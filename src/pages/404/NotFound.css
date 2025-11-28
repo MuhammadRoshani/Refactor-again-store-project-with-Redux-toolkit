@@ -1,0 +1,32 @@
+.notFoundContainer{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/images/404-error.jpg') no-repeat center / cover;
+    /* background-color: rgb(31, 31, 31); */
+    color: rgb(252, 99, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h2 */
+.notFoundContainer h2{
+    font-size: 50px;
+    margin: 10px 0;
+}
+/* a */
+.notFoundContainer a{
+    background-color: #fff;
+    color: rgb(252, 99, 217);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+
+.notFoundContainer a:hover{
+    color: rgb(252, 231, 8);
+    background-color: rgb(10, 0, 123);
+}
